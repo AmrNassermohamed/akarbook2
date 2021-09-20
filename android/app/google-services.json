@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "1010416416200",
+    "project_id": "akarbook-5cd7f",
+    "storage_bucket": "akarbook-5cd7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010416416200:android:3569d7735124aeae28bcfd",
+        "android_client_info": {
+          "package_name": "com.akarbook.akarbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010416416200-sce6f818efonpilduc0a1p5jafn3pu2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akarbook.akarbook",
+            "certificate_hash": "b97dbe046db6a6483ba9e81534c703ad6e5c3bc6"
+          }
+        },
+        {
+          "client_id": "1010416416200-8fp2o2muj88oqngj43imi6i19mkt2mt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE0-B2_-BQk1Lu7WgbFtJqenJW7eKaTgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010416416200-8fp2o2muj88oqngj43imi6i19mkt2mt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010416416200:android:ab3baab2af90f14428bcfd",
+        "android_client_info": {
+          "package_name": "com.example.akarbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010416416200-8fp2o2muj88oqngj43imi6i19mkt2mt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE0-B2_-BQk1Lu7WgbFtJqenJW7eKaTgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010416416200-8fp2o2muj88oqngj43imi6i19mkt2mt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
