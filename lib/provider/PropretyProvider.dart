@@ -76,7 +76,7 @@ class PropertyProvider extends ChangeNotifier{
      notifyListeners();
       } else {
         loadMore = true;
-
+notifyListeners();
       } //changeProgress(progress);
     }
     List<Property> property;

@@ -95,7 +95,7 @@ children: [
       ]),),
 sizedBoxGlobalHeight10(),
   new Divider(),
- centerTitle(key: "تاريخ الانتهاء",value: "${provider.providerGeneralStatePackage.data![index].realEstatePackagePeriod} ايام" ),
+ centerTitle(key: "تاريخ الانتهاء",value: "${provider.providerGeneralStatePackage.data![index].realEstatePackagePeriod}" ),
   sizedBoxGlobalHeight10(),
   new Divider(),
   centerTitle(key: "عدد العقارات",value: provider.providerGeneralStatePackage.data![index].realEstatePackageNumberListings)
@@ -134,7 +134,8 @@ sizedBoxGlobalHeight10(),
 
          ),
          ),
-         provider2.isAcceptedAgent.data==true?    new Container(width: 100,child: globalButtonOrange(title: "اختر",callback: () async {
+         provider2.isAcceptedAgent.data==true?    new Container(width: 100,child: globalButtonOrange(title: "اختر",
+             callback: () async {
            final validationServiceUser = Provider.of<UserProvider>(context,listen: false);
            if(validationServiceUser.userProviderGeneralState.hasData==true) {
              Navigator.of(context).push(
